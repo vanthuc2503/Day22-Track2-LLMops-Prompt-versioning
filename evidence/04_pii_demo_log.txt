@@ -1,0 +1,8 @@
+# 04_pii_demo_log.txt
+# ====================
+# Run: python 04_guardrails_validator.py 2>&1 | tee evidence/04_pii_demo_log.txt
+#
+# This file should contain console output showing:
+#   - PII Detection Demo section with 6 test cases
+#   - Each case showing Input and Output (PII redacted or clean)
+#   - ✅ Redacted / ✅ Clean status per case

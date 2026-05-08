@@ -1,0 +1,8 @@
+# 02_ab_routing_log.txt
+# ========================
+# Run: python 02_prompt_hub_ab_routing.py 2>&1 | tee evidence/02_ab_routing_log.txt
+#
+# This file should contain console output showing:
+#   - V1 and V2 prompts being pushed to LangSmith Prompt Hub
+#   - 50 queries with [prompt-v1] or [prompt-v2] labels
+#   - Routing summary: V1=N, V2=M

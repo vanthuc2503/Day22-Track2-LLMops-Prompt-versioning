@@ -1,0 +1,9 @@
+# 04_json_demo_log.txt
+# ====================
+# Run: python 04_guardrails_validator.py 2>&1 | tee evidence/04_json_demo_log.txt
+#
+# This file should contain console output showing:
+#   - JSON Formatting Demo section with 5 test cases
+#   - Each case showing Input, Output, and Pass/Fail status
+#   - Valid JSON cases → ✅ Pass
+#   - Malformed JSON cases → repaired or ❌ Fail with error JSON
